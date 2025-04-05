@@ -10742,7 +10742,8 @@
                                             (0, ke.jsx)("hr", {}),
                                             (0, ke.jsxs)("div", {
                                                 className:
-                                                    "grid grid-cols-1 gap-10 lg:grid-cols-3 mt-5 items-start",
+                                                    "grid grid-cols-1 gap-10 lg:grid-cols-3 mt-5 items-start content-stretch",
+                                                style : { alignContent:"stretch"},
                                                 children: [
                                                     (0, ke.jsxs)("div", {
                                                         className: "shadow-md rounded-2xl bg-contain",
@@ -10779,11 +10780,12 @@
                                                         children: [
                                                             (0, ke.jsx)("div", {
                                                                 className:
-                                                                    "h-40  rounded-t-lg bg-cover bg-bottom",
+                                                                    "h-40  rounded-t-lg bg-cover",
                                                                 style: {
                                                                     background:
-                                                                        "url('https://www.archanaskitchen.com/images/archanaskitchen/1-Author/Neha_Mathur/Achari_Paneer_Tikka_Recipe_Party_Food_400.jpg')",
+                                                                        "url('https://indianfoods.co.in/wp-content/uploads/2024/02/paneer-tikka-masa.jpg')",
                                                                     backgroundSize: "cover",
+                                                                    backgroundPosition: "center",
                                                                 },
                                                             }),
                                                             (0, ke.jsxs)("div", {
@@ -11083,7 +11085,7 @@
                 { id: 1, name: "MUSHROOM CHOWMEIN", category: "food", price: 205, price2: null, bst: 0, extra: "", },
                 { id: 1, name: "PANEER MUSHROOM CHOWMEIN", category: "food", price: 225, price2: null, bst: 0, extra: "", },
                 { id: 1, name: "BUTTER PANEER CHOWMEIN", category: "food", price: 215, price2: null, bst: 0, extra: "", },
-                { id: 1, name: "SINGAPURI CHOWMEIN", category: "food", price: 215, price2: null, bst: 0, extra: "", },
+                { id: 1, name: "SINGAPURI CHOWMEIN", category: "food", price: 220, price2: null, bst: 0, extra: "", },
                 { id: 1, name: "HAKKA NOODLES", category: "food", price: 220, price2: null, bst: 0, extra: "", },
                 { id: 1, name: "VEG. CHOPSUEY", category: "food", price: 210, price2: null, bst: 0, extra: "", },
                 { id: 1, name: "CHINESE CHOPSUEY", category: "food", price: 230, price2: null, bst: 0, extra: "", },
@@ -11102,14 +11104,14 @@
                 { id: 1, name: "CHEESE PIZZA", category: "food", price: 110, price2: 200, bst: 1, extra: "", },
                 { id: 1, name: "SINGLE TOPPING PIZZA", category: "food", price: 130, price2: 220, bst: 1, extra: "(ONION, CAPSICUM, TOMATO, CORN)", },
                 { id: 1, name: "DOUBLE TOPPING PIZZA", category: "food", price: 140, price2: 225, bst: 1, extra: "(ONION, CAPSICUM, TOMATO, MUSHROOM, CORN)", },
-                { id: 1, name: "VEGGIE LOVER PIZZA", category: "food", price: 165, price2: 245, bst: 1, extra: "(ONION, CAPSICUM, TOMATO)", },
-                { id: 1, name: "CHILLI PANEER PIZZA", category: "food", price: 155, price2: 240, bst: 1, extra: "", },
+                { id: 1, name: "VEGGIE LOVER PIZZA", category: "food", price: 155, price2: 240, bst: 1, extra: "(ONION, CAPSICUM, TOMATO)", },
+                { id: 1, name: "CHILLI PANEER PIZZA", category: "food", price: 165, price2: 245, bst: 1, extra: "", },
                 { id: 1, name: "CHILLI MUSHROOM PIZZA", category: "food", price: 165, price2: 245, bst: 1, extra: "", },
                 { id: 1, name: "PANEER PIZZA", category: "food", price: 155, price2: 240, bst: 1, extra: "", },
-                { id: 1, name: "FARM HOUSE PIZZA", category: "food", price: 180, price2: 285, bst: 1, extra: "(ONION, CAPSICUM, TOMATO, MUSHROOM, PANEER, CORN)", },
+                { id: 1, name: "FARM HOUSE PIZZA", category: "food", price: 165, price2: 260, bst: 1, extra: "(ONION, CAPSICUM, TOMATO, MUSHROOM, PANEER, CORN)", },
                 { id: 1, name: "CAGE CAFE SPL. PIZZA", category: "food", price: 180, price2: 285, bst: 1, extra: "", },
                 { id: 1, name: "EXTRA NORMAL CHEESE", category: "food", price: 25, price2: 40, bst: 0, extra: "", },
-                { id: 1, name: "EXTRA MOZZARELLA CHEESE", category: "food", price: 35, price2: 50, bst: 0, extra: "", },
+                { id: 1, name: "EXTRA MOZZARELLA CHEESE", category: "food", price: 35, price2: 55, bst: 0, extra: "", },
                 { id: 1, name: "VEG. BURGER", category: "food", price: 90, price2: null, bst: 0, extra: "", },
                 { id: 1, name: "PANEER BURGER", category: "food", price: 110, price2: null, bst: 0, extra: "", },
                 { id: 1, name: "PANEER CHEESE BURGER", category: "food", price: 125, price2: null, bst: 0, extra: "", },
@@ -11228,6 +11230,9 @@
                 { id: 1, name: "CHANA MASALA ", category: "food", price: 250, price2: null, bst: 0, extra: "", },
                 { id: 1, name: "PALAK PANEER ", category: "food", price: 250, price2: null, bst: 0, extra: "", },
                 { id: 1, name: "SHAHI PANEER ", category: "food", price: 255, price2: null, bst: 0, extra: "", },
+                { id: 1, name: "MALAI KOFTA (MIX GRAVY) ", category: "food", price: 270, price2: null, bst: 1, extra: "", },
+                { id: 1, name: "MALAI KOFTA (WHITE GRAVY) ", category: "food", price: 290, price2: null, bst: 1, extra: "", },
+                
                 { id: 1, name: "TAWA PANEER ", category: "food", price: 265, price2: null, bst: 0, extra: "", },
                 { id: 1, name: "PANEER DO PAYAZA ", category: "food", price: 270, price2: null, bst: 0, extra: "", },
                 { id: 1, name: "PANEER LABABDAR ", category: "food", price: 270, price2: null, bst: 0, extra: "", },
@@ -11286,8 +11291,8 @@
                 { id: 1, name: "BOONDI RAITA ", category: "food", price: 125, price2: null, bst: 0, extra: "", },
                 { id: 1, name: "MIX RAITA ", category: "food", price: 135, price2: null, bst: 0, extra: "", },
                 { id: 1, name: "PINEAPPLE RAITA ", category: "food", price: 145, price2: null, bst: 0, extra: "", },
-                { id: 1, name: "ROASTED PAPAD (2 PCS)", category: "food", price: 20, price2: null, bst: 0, extra: "", },
-                { id: 1, name: "MASALA PAPAD (2 PCS)", category: "food", price: 40, price2: null, bst: 0, extra: "", },
+                { id: 1, name: "ROASTED PAPAD (1 PCS)", category: "food", price: 20, price2: null, bst: 0, extra: "", },
+                { id: 1, name: "MASALA PAPAD (1 PCS)", category: "food", price: 40, price2: null, bst: 0, extra: "", },
                 { id: 1, name: "VANILLA ICE CREAM", category: "food", price: 90, price2: null, bst: 0, extra: "", },
                 { id: 1, name: "STRAWBERRY ICE CREAM", category: "food", price: 90, price2: null, bst: 0, extra: "", },
                 { id: 1, name: "TWO IN ONE ICE CREAM", category: "food", price: 95, price2: null, bst: 0, extra: "", },
@@ -11311,8 +11316,7 @@
                 { id: 1, name: "WATERMELON MOJITO ", category: "drink", price: 170, price2: null, bst: 0, extra: "", },
                 { id: 1, name: "COLD COFFEE ", category: "drink", price: 120, price2: null, bst: 0, extra: "", },
                 { id: 1, name: "COLD COFFEE WITH ICE CREAM", category: "drink", price: 140, price2: null, bst: 0, extra: "", },
-                { id: 1, name: "MALAI KOFTA (MIX GRAVY) ", category: "food", price: 270, price2: null, bst: 0, extra: "", },
-                { id: 1, name: "MALAI KOFTA (WHITE GRAVY) ", category: "food", price: 290, price2: null, bst: 0, extra: "", },
+                
             ];
             function Me(e) {
                 return (0, ke.jsxs)("div", {
